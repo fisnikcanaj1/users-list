@@ -6,6 +6,12 @@
 .modal-item {
     cursor: pointer;
 }
+
+.username {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
 /* ===== Spinner ====== */
 
 .spinner {
