@@ -233,7 +233,7 @@ $(document).ready(function() {
     ]
 
         runData(users);
-        moreData(users);
+        moreData(users)
 });
 
 
@@ -269,18 +269,15 @@ function runData(users) {
         }
 }
 
-function moreData() {
+function moreData(users) {
    
     $('.row').on('click', '.modal-item', function() {
         var clickedElementId = $(this).data('id');        
 
-        $.getJSON("users.json", function (data) {
-
-            $.each(data, function (key, val) {
-                if(clickedElementId === val.id){
-                    appendDataToModal(val);
-                }
-            });
+        $.each(users, function (key, val) {
+            if(clickedElementId === val.id){
+                appendDataToModal(val);
+            }
         });
     });
 
