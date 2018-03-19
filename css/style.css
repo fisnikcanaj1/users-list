@@ -7,11 +7,14 @@
     cursor: pointer;
 }
 
-.username {
-    padding-bottom: 1rem;
+.username
+ {
+    padding-bottom: 0.5rem;
     font-size: 1.2rem;
 }
-
+.email {
+    margin-bottom: 1.4rem;
+}
 /* ===== Spinner ====== */
 
 .spinner {
