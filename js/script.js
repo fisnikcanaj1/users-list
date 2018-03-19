@@ -252,7 +252,7 @@ function runData(users) {
                     .append(`<div class='col-sm-4 item'>
                                     
                                         <div class='card'>
-                                            <div class='card-header font-weight-bold '><h5>${val.name}</h5></div>
+                                            <div class='card-header font-weight-bold'><h5 class="name-header">${val.name}</h5></div>
                                             <div class='card-body'>
                                                 <h6 class="card-subtitle mb-2 text-muted username"> ${val.username} </h6>
                                                 <a class="email" href='mailto:${val.email}'> ${val.email} </a></br>
