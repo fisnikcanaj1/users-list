@@ -257,7 +257,7 @@ function runData(users) {
                                                 <h6 class="card-subtitle mb-2 text-muted"> ${val.username} </h6>
                                                 <h6 class="card-subtitle mb-2"> ${val.email} </h6>
                                                 <a href=" ${val.website} "> ${val.website} </a><br/><br/>
-                                                <a data-toggle='modal' data-target='#myModal' class='modal-item' data-id="${val.id}"><button class='btn-block btn-primary'>Show more data</button></a>
+                                                <a data-toggle='modal' data-target='#myModal' data-id="${val.id}"><button class='btn-block btn-primary modal-item'>Show more data</button></a>
                                             </div>
                                         </div>
                                 </div>
