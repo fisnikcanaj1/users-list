@@ -83,7 +83,7 @@ function appendDataToModal(data) {
 
     $('.modal-body').html(`
         <strong>Name:</strong> ${data.name} <br/>
-        <strong>Username:</strong> ${data.name} <br/>
+        <strong>Username:</strong> ${data.username} <br/>
         <strong>Email:</strong> ${data.email} <br/>
         <strong>Phone:</strong> ${data.phone} <br/>
         <strong>Website:</strong> ${data.website} <br/></br>
