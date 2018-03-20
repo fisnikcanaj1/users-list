@@ -299,12 +299,12 @@ function appendDataToModal(data) {
         <strong>City:</strong> ${data.address.city} <br/>
         <strong>Zipcode:</strong> ${data.address.zipcode} <br/></br>
         
-        <h5>Company</h5>
+        <h5>Company:</h5>
         <strong>Company name:</strong> ${data.company.name} <br/>
         <strong>CatchPhrase:</strong> ${data.company.catchPhrase} <br/>
         <strong>Bs:</strong> ${data.company.bs} <br/></br>
 
-        <h6>Geographic Position</h6>
+        <h6>Geographic Position:</h6>
         <strong>Latitude:</strong> ${data.address.geo.lat} <br/>
         <strong>Longitude:</strong> ${data.address.geo.lng} <br/>
     `);
